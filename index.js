@@ -96,7 +96,7 @@ document.addEventListener("keypress",function(){console.log("key");devMode ^= tr
 function click(){
 	var column = (mx-rbx)/stoneWidth;
 	var row = 0;
-	board[row][column];
+	board[row][column] = 0;
 }
 function mouse(e){
 	mx = e.clientX;
